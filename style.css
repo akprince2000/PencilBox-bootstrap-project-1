@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+span {
+  color: #ff0000;
+}
+.btn {
+  background: #fd320a;
+  padding: 12px 50px;
+  color: #fff;
+  border: navajowhite;
+}
+
+/* this is header area  */
+
+/* nav bar section  */
+.header-top-bg-color {
+  background: rgba(0, 0, 0, 0.3);
+}
+.header-text-area {
+  background: url("./image/banar/banar.jpg");
+  height: 750px;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.navbar-light .navbar-toggler-icon {
+  color: #fff;
+}
+.navbar-dark .navbar-toggler-icon {
+  color: #fff;
+}
+/* this is  header text area  */
+.header-text h1 span {
+  color: #fd320a;
+}
+
+.header-text-area .header-button button {
+  background: #fd320a;
+  padding: 12px 50px;
+  color: #fff;
+  border: navajowhite;
+}
+
+.header-text-area::before {
+  content: "";
+  clear: both;
+  display: block;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+/* this is about section  */
+.all-header-design h1 {
+  position: relative;
+}
+.all-header-design h1::after {
+  content: "";
+  clear: both;
+  display: block;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff0000;
+  position: absolute;
+  left: 49.8%;
+  bottom: -13px;
+}
+.all-header-design hr {
+  border: none;
+  width: 140px;
+  height: 1px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+.about-text p {
+  text-align: justify;
+}
+.about-content-img {
+  background: rgba(0, 0, 0, 0.3);
+}
+.about-content-img ul li a i {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  color: black;
+  padding-top: 8px;
+}
+.about-content-img ul li :hover {
+  background: black;
+  color: white;
+  transition: 0.8s;
+}
+
+.about-content {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.about-content-img {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 94%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  margin: 0 auto;
+}
+.about-content {
+  position: relative;
+}
+
+/* This is what kane do this  */
+
+.more-abou-us {
+  background: url(./image/banar/about-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+  position: relative;
+  z-index: 1;
+}
+.more-abou-us i {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 13px 24px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+.more-abou-us::before {
+  content: "";
+  clear: both;
+  display: block;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+/* this is our-services section  */
+.our-services i {
+  color: #fd320a;
+  font-size: 25px;
+}
+
+/* this is skillbar section  */
+
+.out {
+  width: 80%;
+  height: 20px;
+  background: rgb(0, 0, 0, 0.8);
+  border-radius: 15px;
+  position: relative;
+  text-align: end;
+  color: #fff;
+  font-size: 13px;
+  padding-right: 8px;
+}
+
+.out .in-1,
+.in-2,
+.in-3 {
+  background: #fd320a;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 10px;
+  border-radius: 15px;
+}
+.out .in-1 {
+  width: 60%;
+}
+.out .in-2 {
+  width: 70%;
+}
+.out .in-3 {
+  width: 80%;
+}
+
+/* this is happy client sectiohn  */
+
+.happy-client {
+  background: url("./image/banar/cap-tea.jpg");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+/* this is happy client section  */
+.happy-client::after {
+  content: "";
+  clear: both;
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* this is portfolio img  */
+.portfolio-img .colam img {
+  position: relative;
+}
+.portfolio-img .over-lay {
+  background: rgba(255, 0, 0, 0.6);
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.over-lay i {
+  font-size: 24px;
+}
+.portfolio-img .colam img:hover + .over-lay {
+  display: flex;
+}
+
+/* this is my team section  */
+.my-team {
+  background-color: #e1e1e1;
+}
+
+/* This is Shipon Kormokar  */
+.shipon-kormokar {
+  background: url("./image/banar/bootem-slider.jpg");
+  position: relative;
+  z-index: 1;
+}
+.shipon-kormokar::after {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  clear: both;
+  z-index: -1;
+}
+/* this is latest blog  */
+.latest-blog button {
+  padding: 4px 12px;
+  border: navajowhite;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+/* .latest-blog {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* this is foter section  */
+footer {
+  background: url("./image/footer/contact-us.jpg");
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+footer::after {
+  content: "";
+  clear: both;
+  display: block;
+
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+footer input,
+footer textarea {
+  width: 100%;
+  border: 2px solid white;
+  padding: 7px;
+  margin: 0 auto;
+  display: block;
+  background: none;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.supmit button {
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
